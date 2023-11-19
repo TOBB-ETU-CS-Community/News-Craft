@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "news-craft"
+version = "0.1"
+description = "An automatic news writer AI bot"
+authors = ["invictus-21 <ataturhan21@gmail.com>"]
+license = "GPL v3"
+readme = "README.md"
+packages = [{include = "news_craft"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
